@@ -2,7 +2,7 @@
 
 Simulator of a mine collector robot, written in an evening from scratch for the university course of Software Engineering 2019.
 
-It makes developing an algorithm for a mine collector robot less time consuming using a virtual environment that mimics the real one, without using a physical robot for the task.
+It was made to make developing an algorithm for a mine collector robot less time consuming using a virtual environment that mimics the real one, without using a physical robot for the task.
 
 ## How to use
 
@@ -18,7 +18,7 @@ $ python ./main.py
 
 Once the simulation is over, press Ctrl-C to terminate it.
 
-The simulation is better viewed using a square-sized font, like [this one](http://strlen.com/square).
+The simulation is better viewed using a square-shaped font, like [this one](http://strlen.com/square).
 
 ## Demo
 
