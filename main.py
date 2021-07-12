@@ -42,17 +42,14 @@ def collect_mine():
             collected_mine = m
             mines.remove(m)
 
-    delta = ((0, -1), (1, 0), (0, 1), (-1, 0))
-
 def drop_mine():
     global collected_mine
 
     if x == START_X and y == START_Y:
-        pass
         dropped_mines.append(collected_mine)
         collected_mine = None
 
-# checks for adjact mines
+# checks for adjacent mines
 # returns ' ' if no mines are found
 def check_mine():
     delta = ((0, -1), (1, 0), (0, 1), (-1, 0))
